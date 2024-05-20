@@ -1,8 +1,18 @@
 body {
     background-color: rgb(64, 235, 207);
-    color: rgb(27, 26, 26);
+    color: rgba(27, 25, 25, 0.817);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
 }
+ a {
+    color: crimson;
+    text-decoration: none;
+ }
+
+ a:hover {
+    color: aquamarine;
+ }
 
 nav {
     background-color: rgb(102, 209, 239);
@@ -59,17 +69,27 @@ nav ul li a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
-.table {
-    justify-content: space-between;
-    margin-block-start: 0%;
-    letter-spacing:0cap;
-    font-size: larger;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
-.th header table {
-    color: black;
-    font-size: x-large;
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgb(160, 181, 222);
 }
+
+    tr {
+        background-color: rgb(123, 88, 88);
+        color: black;
+    }
+
+    tr:nth-child(even) {
+        background-color: beige;
+    }
+
 social icons {
     margin: 0%;
     padding: 0%;
